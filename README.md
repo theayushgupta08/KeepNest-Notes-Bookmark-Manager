@@ -29,6 +29,7 @@ npm start
 
 ### 2. Frontend (Next.js + Tailwind CSS)
 ```bash
+git clone https://github.com/theayushgupta08/frontend-manager.git
 cd frontend-manager
 npm install
 npm run dev
