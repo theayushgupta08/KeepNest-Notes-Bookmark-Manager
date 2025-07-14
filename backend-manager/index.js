@@ -239,7 +239,7 @@ app.patch('/api/bookmarks/:id/favorite', authenticateJWT, (req, res) => {
   res.json(bm);
 });
 
-const JWT_SECRET = 'your_jwt_secret'; // In production, use env variable
+const JWT_SECRET = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30'; // In production, use env variable
 
 // In-memory user storage
 let users = [];
